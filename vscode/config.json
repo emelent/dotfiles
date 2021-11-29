@@ -1,0 +1,158 @@
+{
+    "editor.fontFamily": "'Fira Code Retina', 'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontLigatures": true,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "keyboard.dispatch": "keyCode",
+    "workbench.settings.openDefaultKeybindings": true,
+    "go.formatTool": "goimports",
+    "go.useLanguageServer": true,
+    "git.confirmSync": false,
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.fontFamily": "Fira Code Retina",
+    "workbench.activityBar.visible": true,
+    "debug.console.fontSize": 13,
+    "breadcrumbs.enabled": true,
+    "terminal.integrated.cursorBlinking": true,
+
+    "terminal.external.linuxExec": "x-terminal-emulator -e tmux",
+    "window.titleBarStyle": "custom",
+
+    "emmet.includeLanguages": {
+        "vue-html": "html",
+        "javascript": "javascriptreact",
+        "aspnetcorerazor": "html",
+        "vue": "html"
+    },
+    "workbench.sideBar.location": "left",
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "explorer.confirmDelete": false,
+    "rust.mode": null,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.languageServer": "Pylance",
+
+    "vim.autoSwitchInputMethod.enable": true,
+    "vim.autoSwitchInputMethod.defaultIM": "xkb:us::eng",
+    "vim.autoSwitchInputMethod.obtainIMCmd": "/usr/bin/ibus engine",
+    "vim.autoSwitchInputMethod.switchIMCmd": "/usr/bin/ibus engine {im}",
+    "vim.leader": ",",
+    "vim.easymotion": true,
+    "vim.handleKeys": {
+        "<C-d>": false,
+        "<C-k>": false,
+        "<C-t>": false,
+        "<C-b>": false,
+        "<D-d>": false,
+        "<C-x>": false,
+        "<C-h>": false,
+        "<C-a>": false,
+        "<C-f>": false,
+        "<C-c>": false,
+        "<C-v>": false
+    },
+    "vim.insertModeKeyBindings": [
+        // jk to escape
+        {
+            "before": ["j", "k"],
+            "after": ["<Esc>"]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        // quick split
+        {
+            "before": ["<leader>", "v", "s"],
+            "commands": [":vs"]
+        },
+        {
+            "before": ["<leader>", "b", "s"],
+            "commands": [":sp"]
+        },
+
+        // quick quit
+        {
+            "before": ["<leader>", "q"],
+            "commands": [":q"]
+        },
+        {
+            "before": ["<leader>", "qf"],
+            "commands": [":q!"]
+        },
+        {
+            "before": ["<leader>", "q", "a"],
+            "commands": [":qa"]
+        },
+
+        // quick save
+        {
+            "before": ["<leader>", "w"],
+            "commands": [":w"]
+        },
+        {
+            "before": ["<leader>", "w", "a"],
+            "commands": [":wa"]
+        },
+
+        // toggle relative numbers
+        {
+            "before": ["<S-n>"],
+            "commands": [":set rnu!"]
+        }
+
+    ],
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "godot_tools.editor_path": "~/bin/godot",
+    "editor.lineNumbers": "on",
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "workbench.editor.showTabs": true,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.semi": false,
+    "prettier.tabWidth": 4,
+    "[less]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "editor.fontSize": 13,
+    "sqltools.useNodeRuntime": true,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "security.workspace.trust.startupPrompt": "never",
+
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "bash",
+            "icon": "terminal-bash",
+            "args": ["--init-file", "/home/roy/scripts/vscode-shell.sh"]
+        },
+        "zsh": {
+            "path": "zsh",
+            "args": ["--exec", "/home/roy/scripts/vscode-shell.sh"]
+        },
+    },
+    "terminal.integrated.defaultProfile.linux": "zsh",
+    "explorer.confirmDragAndDrop": false,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.minimap.enabled": false,
+    "editor.inlineSuggest.enabled": true,
+    "[css]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    }
+
+}
